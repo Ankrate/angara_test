@@ -1,0 +1,553 @@
+﻿@font-face {
+    font-family: 'NeoSansProRegular';
+    src: url('fonts/neosanspro-regular.eot');
+    src: url('fonts/neosanspro-regular.eot') format('embedded-opentype'),
+         url('fonts/neosanspro-regular.woff') format('woff'),
+         url('fonts/neosanspro-regular.ttf') format('truetype'),
+         url('fonts/neosanspro-regular.svg#NeoSansProRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'NeoSansProBold';
+    src: url('fonts/neosanspro-bold.eot');
+    src: url('fonts/neosanspro-bold.eot') format('embedded-opentype'),
+         url('fonts/neosanspro-bold.woff') format('woff'),
+         url('fonts/neosanspro-bold.ttf') format('truetype'),
+         url('fonts/neosanspro-bold.svg#NeoSansProBold') format('svg');
+}
+@font-face {
+    font-family: 'NeoSansProLight';
+    src: url('fonts/neosanspro-light.eot');
+    src: url('fonts/neosanspro-light.eot') format('embedded-opentype'),
+         url('fonts/neosanspro-light.woff') format('woff'),
+         url('fonts/neosanspro-light.ttf') format('truetype'),
+         url('fonts/neosanspro-light.svg#NeoSansProLight') format('svg');
+}
+@font-face {
+    font-family: 'CuprumBold';
+    src: url('fonts/cuprum_bold.eot');
+    src: url('fonts/cuprum_bold.eot') format('embedded-opentype'),
+         url('fonts/cuprum_bold.woff') format('woff'),
+         url('fonts/cuprum_bold.ttf') format('truetype'),
+         url('fonts/cuprum_bold.svg#CuprumBold') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansSemibold';
+    src: url('fonts/opensans-semibold.eot');
+    src: url('fonts/opensans-semibold.eot') format('embedded-opentype'),
+         url('fonts/opensans-semibold.woff') format('woff'),
+         url('fonts/opensans-semibold.ttf') format('truetype'),
+         url('fonts/opensans-semibold.svg#OpenSansSemibold') format('svg');
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+}
+a:hover{
+text-decoration: none;
+}
+:focus {
+outline: 0;
+}
+*{
+margin:0;
+padding:0;
+}
+html{
+ height:100%;
+}
+ body{
+font-family: 'NeoSansProRegular',ahoma, sans-serif;
+width:100%;
+height:100%;
+ }
+ ul{list-style-type:none;}
+
+ .block{
+ width:960px;
+ margin: 0 auto;
+ position:relative;
+ }
+ #video {
+ 	width: 1200px;
+ }
+ .header .top{
+ float:Left;
+ width:100%;
+ padding: 10px 0;
+ height:85px;
+ background: #153d6d;
+ position:relative;
+ z-index:10;
+ }
+ .logo{
+ float:left;
+ width:100px;
+ height:82px;
+ background: url(images/logo.png) 0 0 no-repeat;
+ display:block;
+ }
+ .top h1{
+  font-family: 'NeoSansProLight';
+  font-size: 35px;
+  color:#000;
+  text-align:center;
+  margin: 0 0 0 50px;
+  float:left;
+  font-weight:500;
+  color:#fff;
+ }
+ .phone{
+ float:right;
+ }
+ .phone .tel{
+ font-family: 'NeoSansProBold';
+ display:block;
+ text-align:right;
+ font-size:37px;
+ color:#fff;
+ font-weight:bold;
+ }
+ .phone a{
+ float:right;
+ font-family: 'NeoSansProBold';
+ width:297px;
+ height:42px;
+ line-height: 42px;
+ display:block;
+ text-align:center;
+ background: #b2211e;
+ border-top: 1px solid #876577;
+ border-left: 1px solid #876577;
+ border-right:1px solid #000;
+ border-bottom:1px solid #000;
+ border-radius: 8px;
+ text-decoration:none;
+ font-size: 24px;
+ color:#fff;
+font-weight:bold;
+ }
+  .phone a:hover,.form button:hover,.you-searched .buy a:hover,.other-option a:hover,.question-text a:hover{background: #9c1e1b;}
+.top-car{
+float:left;
+width:100%;
+height:494px;
+background: url(images/top-bg.png) 50% 0 no-repeat;
+margin-top: -10px;
+padding-top: 20px;
+}
+.top-car h2{
+ font-family: 'NeoSansProBold';
+font-size: 53px;
+color:#061b35;
+text-align:center;
+text-transform:uppercase;
+}
+.top-car h2 span{
+ font-family: 'NeoSansProBold';
+font-size: 75px;
+}
+.top-car .form{float:right;margin: 25px 0 0 0;}
+
+.form{
+width:282px;
+height:270px;
+padding:15px 27px;
+background: url(images/form-bg.png) 50% 0 repeat-y;
+}
+.form h3{
+font-family: 'NeoSansProLight';
+font-size: 22px;
+color:#000;
+text-align:center;
+margin: 0 0 10px 0;
+}
+.form h3 span{
+display:block;
+font-family: 'NeoSansProBold';
+font-size: 28px;
+}
+.form input[type="text"]{
+width: 270px;
+height: 24px;
+padding: 5px;
+line-height:24px;
+text-align:center;
+border:1px solid #949ea2;
+margin: 0 0 2px 0;
+font-size:18px;
+font-family: 'NeoSansProRegular';
+}
+.form button{
+ font-family: 'NeoSansProBold';
+ width:282px;
+ height:60px;
+ display:block;
+ text-align:center;
+ background: #b2211e;
+ border-top: 1px solid #876577;
+ border-left: 1px solid #876577;
+ border-right:1px solid #000;
+ border-bottom:1px solid #000;
+ border-radius: 8px;
+ text-decoration:none;
+ font-size: 25px;
+ text-transform:uppercase;
+ color:#fff;
+font-weight:bold;
+cursor:pointer;
+margin: 12px 0 5px 0;
+}
+
+.form .b-text{
+display:block;
+font-size: 13px;
+color: #000;
+text-align:center;
+}
+
+.content h2{
+font-family: 'CuprumBold';
+font-size:65px;
+text-transform:uppercase;
+text-align:center;
+margin: 0 0 30px 0;
+}
+.content h2.black{color:#000;}
+.content h2.white{color:#fff;}
+
+.you-searched{
+float:left;
+width:100%;
+padding: 30px 0 60px 0;
+}
+.you-searched img{
+float:left;
+}
+.you-searched .description{
+float:left;
+width:300px;
+padding: 0 0 0 25px;
+}
+.you-searched .description h3{
+font-family: 'NeoSansProLight';
+font-size: 51px;
+color:#000;
+margin: 30px 0 20px 0;
+font-weight: 500;
+line-height: 50px;
+}
+.you-searched .description span{
+display:block;
+font-size: 18px;
+color:#000;
+}
+.you-searched .buy{
+float:right;
+width:270px;
+margin: 40px 0 0 0;
+}
+.you-searched .buy .cost{
+font-family: 'NeoSansProBold';
+display:block;
+font-size: 60px;
+color:#b2211e;
+margin: 0 0 20px 0;
+}
+.you-searched .buy a{
+ float:left;
+ font-family: 'NeoSansProBold';
+ width:250px;
+ height:55px;
+ line-height: 55px;
+ display:block;
+ text-align:center;
+ background: #b2211e;
+ border-top: 1px solid #876577;
+ border-left: 1px solid #876577;
+ border-right:1px solid #000;
+ border-bottom:1px solid #000;
+ border-radius: 8px;
+ text-decoration:none;
+ font-size: 24px;
+ color:#fff;
+font-weight:bold;
+}
+
+.other-option{
+float:left;
+width:100%;
+padding: 40px 0;
+height:423px;
+background: url(images/other-bg.jpg) 50% 0 no-repeat;
+}
+.other-option .item{
+position:relative;
+float:left;
+width:230px;
+height:266px;
+padding: 15px 0 0 0;
+background: #fff;
+border-radius: 12px;
+border-top: 1px solid #d9d5d2;
+border-bottom:1px solid #d9d5d2;
+margin-left: 10px;
+text-align:center;
+}
+.other-option .item:first-child{margin-left:0;}
+
+.other-option .item h3{
+font-family: 'NeoSansProBold';
+font-size: 19px;
+color: #000;
+margin: 0 0 10px 0;
+}
+.other-option .item span.model{
+display:block;
+font-size: 13px;
+color:#000;
+padding: 0 0 0 20px;
+text-align:left;
+margin: 0 0 10px 0;
+}
+.other-option .item img{
+margin: 0 auto 10px;
+display:block;
+}
+.other-option .cost{
+font-family: 'NeoSansProBold';
+display:block;
+font-size: 31px;
+color:#b2211e;
+margin: 0 0 20px 0;
+}
+.other-option a{
+ font-family: 'NeoSansProBold';
+ width:175px;
+ height:38px;
+ line-height: 38px;
+ display:block;
+ text-align:center;
+ background: #b2211e;
+ border-top: 1px solid #876577;
+ border-left: 1px solid #876577;
+ border-right:1px solid #731513;
+ border-bottom:1px solid #731513;
+ border-radius: 8px;
+ text-decoration:none;
+ font-size: 13px;
+ color:#fff;
+font-weight:bold;
+position:absolute;
+bottom: -20px;
+left: 27px;
+text-transform:uppercase;
+}
+
+.advantages{
+float:left;
+width:100%;
+padding: 30px 0;
+}
+.advantages .item{
+float:left;
+width:20%;
+text-align:center;
+padding-top: 150px;
+}
+.advantages .item span{
+font-family: 'NeoSansProBold';
+display:block;
+font-size:20px;
+color:#000;
+}
+.advantages .item.ico1{background: url(images/ico1.png) 50% 0 no-repeat;}
+.advantages .item.ico2{background: url(images/ico2.png) 50% 0 no-repeat;}
+.advantages .item.ico3{background: url(images/ico3.png) 50% 0 no-repeat;}
+.advantages .item.ico4{background: url(images/ico4.png) 50% 0 no-repeat;}
+.advantages .item.ico5{background: url(images/ico5.png) 50% 0 no-repeat;}
+
+.order{
+float:left;
+width:100%;
+height: 433px;
+padding: 40px 0;
+background: url(images/order-bg.png) 50% 0 no-repeat;
+}
+.order-block{
+position:relative;
+width:803px;
+height:318px;
+margin: 0 auto;
+background: url(images/ob-bg.png) 0 100% no-repeat;
+}
+.order-block span{
+font-family: 'OpenSansSemibold';
+font-size:25px;
+color:#fff;
+text-align:center;
+display:block;
+position:absolute;
+text-shadow: 0 1px 1px #000;
+}
+.order-block .text1{top:30px;left:55px;}
+.order-block .text2{top:250px;left:310px;}
+.order-block .text3{top:30px;right:35px;}
+
+.reviews{
+float:Left;
+width:100%;
+padding: 40px 0;
+}
+.reviews .mb{margin-bottom: 0;}
+.rew-line{
+float:left;
+width:100%;
+margin: 90px 0 0 0;
+}
+.rew-line .item{
+float:left;
+width:405px;
+height:321px;
+padding: 20px;
+background: #c2bcbc;
+border-radius: 12px;
+margin-left: 50px;
+}
+.rew-line .item:first-child{margin-left:0;}
+.rew-line .item .top {
+float:Left;
+width:100%;
+margin: 0 0 20px 0;
+}
+.rew-line .item .top img{
+float:left;
+border-radius: 50%;
+border: 3px solid #fff;
+box-shadow: 0 0 3px 2px #000;
+margin: -70px 0 0 0;
+}
+.rew-line .item .top .name{
+font-family: 'NeoSansProBold';
+float:left;
+display:block;
+margin: 0 0 0 20px;
+font-size: 21px;
+color:#000;
+}
+.rew-line .item  p{
+font-size: 18px;
+color:#000;
+}
+
+.question{
+float:left;
+width:100%;
+height:470px;
+background: url(images/footer-bg.jpg) 50% 0 no-repeat;
+}
+.question-text{
+float:left;
+margin: 140px 0 0 400px;
+}
+.question-text span{
+display:block;
+font-family: 'NeoSansProBold';
+font-size: 55px;
+color:#fff;
+text-shadow: 0 2px 2px #000;
+margin: 0 0 30px 0;
+}
+.question-text a{
+ width:393px;
+ height:70px;
+ line-height: 70px;
+ display:block;
+ text-align:center;
+ background: #b2211e;
+ border-top: 1px solid #876577;
+ border-left: 1px solid #876577;
+ border-right:1px solid #731513;
+ border-bottom:1px solid #731513;
+ border-radius: 8px;
+ text-decoration:none;
+ font-size: 28px;
+ color:#fff;
+text-transform:uppercase;
+}
+
+.question .girl{
+position:absolute;
+top: 180px;
+left:0;
+display:block;
+width:468px;
+height: 354px;
+background: url(images/girl.png) 0 0 no-repeat;
+}
+.footer{
+float:left;
+width:100%;
+padding:100px 0 40px 0;
+background: #153d6d;
+}
+.footer .logo{
+margin: 0 0 0 80px;
+}
+.footer p{
+float:left;
+font-size: 14px;
+color:#fff;
+margin: 0 0 0 40px;
+line-height: 22px;
+}
+.footer .phone .tel{
+font-size:25px;
+margin: 0 0 10px 0;
+}
+.footer .phone a{
+width:225px;
+height:40px;
+line-height: 36px;
+font-size:21px;
+}
+
+/* modal */
+
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+  
+#boxes .window {
+  position:fixed;
+  left:0;
+  top:0;
+  display:none;
+  z-index:9999;
+}
+
+#boxes #dialog {
+
+}
+.footer_link {
+	color: #fff;
+}

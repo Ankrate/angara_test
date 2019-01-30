@@ -1,0 +1,81 @@
+#map_all{
+	position: relative;
+}
+
+#item	{
+	position: absolute;
+	left: 13px;
+	top: 130px;
+}
+#item .item	{
+	cursor: move;
+	position: absolute;
+	top:0;
+	width: 40px;
+	height: 11px;
+	border: 4px solid red;
+}
+
+
+
+#item .item:hover +	button{
+	display: none;
+}
+
+#item .item	.rez{
+	cursor: nw-resize;
+	position: relative;
+	left: 44px;
+	top: 8px;
+}
+
+#item button{
+	position: relative;
+	top: -30px;
+}
+
+#blockUp{
+	width: 400px;
+
+	float: left;
+}
+
+#blockMap{
+margin-left: 20px;
+	border: 1px solid red;
+}
+
+.formCheck label{
+	clear: both;
+ display: block;
+	text-align: right;
+}
+
+.formCheck input{
+	margin-left: 10px;
+	width: 250px;
+	float:right;
+}
+
+#blockMap{
+	position: fixed;
+	left: 450px;
+}
+.formEdit label{
+	clear: both;
+	display: block;
+	text-align: right;
+}
+
+.formEdit input{
+	margin-left: 10px;
+	width: 250px;
+	float:right;
+}
+
+div.red {
+	color:red;
+}
+.domoy {
+	margin: 5px 0px 30px 5px;
+}

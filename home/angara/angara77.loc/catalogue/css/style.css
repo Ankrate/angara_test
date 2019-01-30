@@ -1,0 +1,42 @@
+.tab1 {
+	width:100%;
+	border-collapse: collapse;
+	margin-top: 50px;
+	
+}
+.tab1 td  {
+	border: 1px blue solid;
+	height: 40px;
+	vertical-align: middle;
+}
+
+.div_center img   {
+	display: block;
+	margin: 0 auto;
+	
+}
+h1 {
+	text-align: center;
+}
+.div_center2 {
+	margin:0 auto;
+	width: 600px;
+	
+}
+
+.div_center2 img {
+	float: right;
+}
+.div_center3 {
+	margin:0 auto;
+	width: 800px;
+	
+}
+
+.div_center3 img {
+	float: right;
+}
+#mapster_wrap_0 {
+	display:block;
+	margin: 0 auto;
+}

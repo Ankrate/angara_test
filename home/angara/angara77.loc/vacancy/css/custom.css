@@ -1,0 +1,48 @@
+/*
+Theme Name: Worthy - Free Powerful Theme by HtmlCoder
+Author:HtmlCoder
+Author URI:http://www.htmlcoder.me
+Version:1.0.0
+Created:November 2014
+License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
+File Description: Place here your custom CSS styles
+*/
+.media * {
+	font-size:larger;
+}
+.all-together p {
+	font-size:larger;
+}
+.all-together li {
+	font-size:larger;
+}
+.media-body a {
+	font-size: inherit;
+}
+.all-together p, .all-together li {
+	font-size:large; font-weight: 300;
+	color: #1D1C54;
+}
+.testimonial a {
+	/* text-decoration:none; */
+}
+.back-home a {
+	    font-family: "AvantGardeGothicITCW01D 731075","Arial",sans-serif;
+	
+	color:#167ac6;
+	
+}
+.back-home {
+	
+	/* padding-top: 30px; */
+}
+.pink-text{
+    margin-bottom: 20px;
+    font-family: "AvantGardeGothicITCW01D 731075","Arial",sans-serif;
+    /* color: rgb(195, 57, 190); */
+   color:#167ac6;
+    font-size: 30px;
+}
+.color-cheat{
+    color:#3e5362;
+}

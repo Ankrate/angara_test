@@ -1,0 +1,162 @@
+/*
+				font-family: 'PT Sans Narrow', sans-serif;
+				font-family: 'Lobster', cursive;
+*/
+
+
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 2em;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background: #DEDEDE url(images/img01.png) repeat;
+	-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/*table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}*/
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font-family: Arial , Georgia, Serif;
+	height: 100%;
+	background: #DEDEDE url(images/img01.png) repeat;
+	color: #616161;
+}
+a {
+	color: #404040;
+}
+.wrapper {
+	width: 100%;
+	min-width: 1000px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+h1 {
+	font-size:24px;
+	text-align: center;
+}
+
+h3 {
+	font-size:22px;
+	text-align: center;
+	
+}
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 270px;
+	background: #D0D0D0;
+	border-radius: 5px;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	padding: 0 0 100px;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+	
+}
+.container {
+	width: 99%;
+	float: left;
+	overflow: hidden;
+	margin-top: 20px;
+	
+}
+.content {
+	padding: 0 270px 0 270px;
+}
+
+.content img {
+	/*box-shadow: 10px 10px 5px #888888;*/
+	
+}
+.cat_category img {
+	margin: 10px;
+}
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 250px;
+	margin-left: -98%;
+	position: relative;
+	margin-top: 20px;
+}
+
+
+/* Right Sidebar
+-----------------------------------------------------------------------------*/
+.right-sidebar {
+	float: left;
+	width: 250px;
+	margin-left: -250px;
+	position: relative;
+	margin-top: 20px;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	margin: -100px auto 0;
+	min-width: 1000px;
+	height: 300px;
+	background-color: #d0d0d0;
+	border-radius: 5px;
+	position: relative;
+	
+}

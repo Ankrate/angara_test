@@ -1,0 +1,14 @@
+<Files "val.php">
+Order Deny,Allow
+        Deny from all
+        Allow from localhost
+       Allow from 127.0.0.1
+     	Allow from 46.151.155.97
+</Files>
+<Files "val_olboss.php">
+Order Deny,Allow
+        Deny from all
+        Allow from localhost
+        Allow from 127.0.0.1
+     	Allow from 46.151.155.97
+</Files>

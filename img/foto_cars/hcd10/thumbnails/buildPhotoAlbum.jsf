@@ -1,0 +1,44 @@
+App.progressCountTotal = 5;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/jeep/061201_HCD-10.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = '061201_HCD-10.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/images/061201_HCD-10_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/images/061201_HCD-10_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/images/061201_HCD-10_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/thumbnails/061201_HCD-10_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/thumbnails/061201_HCD-10_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/thumbnails/061201_HCD-10_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/jeep/061201_HCD_101.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = '061201_HCD_101.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/images/061201_HCD_101_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/images/061201_HCD_101_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/images/061201_HCD_101_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/thumbnails/061201_HCD_101_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/thumbnails/061201_HCD_101_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/thumbnails/061201_HCD_101_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/jeep/200705020500001_2.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = '200705020500001_2.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/images/200705020500001_2_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/images/200705020500001_2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/images/200705020500001_2_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/thumbnails/200705020500001_2_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/thumbnails/200705020500001_2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/thumbnails/200705020500001_2_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/jeep/30861_1.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = '30861_1.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/images/30861_1_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/images/30861_1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/images/30861_1_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/thumbnails/30861_1_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/thumbnails/30861_1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/thumbnails/30861_1_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/jeep/auto1164858093808083333_0.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'auto1164858093808083333_0.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/images/auto1164858093808083333_0_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/images/auto1164858093808083333_0_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/images/auto1164858093808083333_0_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/thumbnails/auto1164858093808083333_0_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/thumbnails/auto1164858093808083333_0_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hcd10/thumbnails/auto1164858093808083333_0_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+'done';

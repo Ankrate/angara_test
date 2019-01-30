@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=1C
+Comment=1C OLESYA
+Exec=/home/olga/scripts/1c_olga.sh
+Icon=/home/olga/Pictures/123.png
+Terminal=false
+StartupNotify=false
+#EOF
+

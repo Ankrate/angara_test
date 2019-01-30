@@ -1,0 +1,81 @@
+AddDefaultCharset UTF-8
+
+
+
+ErrorDocument 401 http://angara77.com
+ErrorDocument 403 http://angara77.com
+ErrorDocument 500 http://angara77.com
+ErrorDocument 404 http://angara77.loc/404/
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine on
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} !^/admin33338/.*$
+RewriteCond %{THE_REQUEST} ^.*/index\.php 
+RewriteRule ^(.*)index.php$ /$1 [R=301,L] 
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ 404.php [L]
+#RewriteRule /404/$ 404.php [L]
+
+RewriteRule category-([a-zA-Z0-9]+)/([0-9]+)/$ search_category.php?search=$1&search2=$2 [L]
+RewriteRule porter-([a-zA-Z0-9]+)-([0-9]+)/$ porter_last.php?cat_number=$1&id=$2 [L]
+RewriteRule porter1/([a-zA-Z0-9]+)/$ catalogue/zerro.php?id=$1 [L]
+RewriteRule category([a-zA-Z0-9]+)/$ middle_image.php?id=$1 [L]
+RewriteRule schema([a-zA-Z0-9]+)/$ last.php?id=$1 [L]
+RewriteRule cat-number-([a-zA-Z0-9]+)/$ cat_number_new.php?cat=$1 [L]
+
+#RewriteRule bigimage/([a-zA-Z0-9]+)$ shw_big.php?filename=$1 [L]
+#lefttd
+RewriteRule search-parts/$ search1.php [L]
+RewriteRule article-([0-9]+)/$ articles_last.php?id=$1 [L]
+RewriteRule price/([a-zA-Z0-9]+)/$ price.php?model=$1 [L]
+RewriteRule dostavka/$ delivery.php [L]
+
+RewriteCond %{QUERY_STRING} ^middle=(.*)$ [NC]
+RewriteRule ^middle_image.php$ http://%{HTTP_HOST}/ [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^cat_number(.*)$ [NC]
+RewriteRule ^cat_number\.php$ http://%{HTTP_HOST}/ [R=301,L]
+
+RewriteRule okompanii/$ about.php [L,NC]
+
+RewriteRule documenty/$ documents.php [L]
+RewriteRule otzivy/$ reviews_big.php [L]
+RewriteRule kontakty/$ contacts.php [L]
+RewriteRule specials/$ specials.php [L]
+RewriteRule articles/$ articles.php [L]
+RewriteRule page/$ empty_page.php [L]
+RewriteRule search-video/$ search_video.php [L]
+RewriteRule turbo/$ http://zpr.angara77.com/turbo.php [L]
+
+<IfModule mod_rewrite.c>
+
+<ifModule mod_headers.c>
+
+Header set Content-Security-Policy " script-src 'self' 'unsafe-inline' 'unsafe-eval' http://cdn.jivosite.com/ my2.imgsmail.ru http://www.gstatic.com yandex.st pagead2.googlesyndication.com cdn.connect.mail.ru mc.yandex.ru http://www.google-analytics.com https://www.google-analytics.com https://metrika.yandex.ru http://www.googleadservices.com http://googleads.g.doubleclick.net http://code.jivosite.com http://code.jivosite.com http://www.google.com http://bs.yandex.ru http://cdn.voximplant.com/voximplant.min.js http://loader-1.appspot.com http://code.jquery.com http://googleads.g.doubleclick.net; object-src 'self' my2.imgsmail.ru http://www.gstatic.com yandex.st pagead2.googlesyndication.com cdn.connect.mail.ru mc.yandex.ru http://www.google-analytics.com https://www.google-analytics.com https://metrika.yandex.ru http://www.googleadservices.com http://googleads.g.doubleclick.net http://code.jivosite.com http://code.jivosite.com http://www.google.com http://bs.yandex.ru http://code.jquery.com http://googleads.g.doubleclick.net http://maps.google.ru; media-src 'self' http://cdn.jivosite.com/ http://www.youtube.com http://www.gstatic.com yandex.st pagead2.googlesyndication.com cdn.connect.mail.ru mc.yandex.ru http://www.google-analytics.com https://www.google-analytics.com https://metrika.yandex.ru http://www.googleadservices.com http://googleads.g.doubleclick.net http://code.jivosite.com http://code.jivosite.com http://www.google.com http://bs.yandex.ru http://code.jquery.com http://googleads.g.doubleclick.net https://www.google.com http://maps.google.ru; frame-src 'self' https://www.google.com googleads.g.doubleclick.net vk.com http://www.youtube.com http://www.gstatic.com yandex.st pagead2.googlesyndication.com cdn.connect.mail.ru mc.yandex.ru http://www.google-analytics.com https://www.google-analytics.com https://metrika.yandex.ru http://www.googleadservices.com http://googleads.g.doubleclick.net http://code.jivosite.com http://www.google.com http://bs.yandex.ru http://www.google.ru http://code.jquery.com http://googleads.g.doubleclick.net http://maps.google.ru; font-src 'self' http://code.jivosite.com http://fonts.gstatic.com http://maxcdn.bootstrapcdn.com; connect-src 'self' mc.yandex.ru *.gstatic.com"
+
+#month
+  <filesMatch "\.(ico|jpe?g|png|gif|swf)$">
+    Header set Cache-Control "max-age=2592000, public"
+  </filesMatch>
+#week
+  <filesMatch "\.(css|js)$">
+    Header set Cache-Control "max-age=604800, public"
+  </filesMatch>
+#day
+  <filesMatch "\.(x?html?|php)$">
+    Header set Cache-Control "max-age=43200, private, must-revalidate"
+  </filesMatch>
+</IfModule>
+
+
+
+
+
+
+

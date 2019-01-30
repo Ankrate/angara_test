@@ -1,0 +1,75 @@
+    /* check if base64_decode enabled */
+    if(!function_exists('base64_decode')) {
+        _error("Installation Error", '<p class="text-center">Your PHP installation appears to be missing the "base64_decode()" function which is required by Sngine.</p><small>Back to your server admin or hosting provider to enable it for you</small>');
+    return base64_decode($string);
+./angara77.org/includes/functions.php
+			// base64 encoded red image that says 'no hotlinkers'
+			$imgData = base64_decode("R0lGODlhUAAMAIAAAP8AAP///yH5BAAHAP8ALAAAAABQAAwAAAJpjI+py+0Po5y0OgAMjjv01YUZ\nOGplhWXfNa6JCLnWkXplrcBmW+spbwvaVr/cDyg7IoFC2KbYVC2NQ5MQ4ZNao9Ynzjl9ScNYpneb\nDULB3RP6JuPuaGfuuV4fumf8PuvqFyhYtjdoeFgAADs=");
+./img/timthumb.php
+  private $_regex = '%(preg_replace.*\/e|`.*?\$.*?`|\bcreate_function\b|\bpassthru\b|\bshell_exec\b|\bexec\b|\bbase64_decode\b|\bedoced_46esab\b|\beval\b|\bsystem\b|\bproc_open\b|\bpopen\b|\bcurl_exec\b|\bcurl_multi_exec\b|\bparse_ini_file\b|\bshow_source\b)%';
+      $this->fingerprints = unserialize(base64_decode(file_get_contents('shelldetect.db', 0, $context)));
+      $this->fingerprints = unserialize(base64_decode(file_get_contents('https://raw.github.com/emposha/PHP-Shell-Detector/master/shelldetect.db')));
+      $filename = base64_decode($_POST['filename']);
+        $postdata = http_build_query(array('task' => 'submit', 'ver' => '2', 'code' => base64_encode(file_get_contents($filename)), 'email' => $email, 'ip' => $_SERVER['REMOTE_ADDR']));
+      $base64_content = base64_encode($content);
+      $shellflag = $this->unpack($file, $content, $base64_content);
+        $this->fileInfo($file, $base64_content);
+          $this->fileInfo($file, $base64_content);
+          $key = $this->fileprepare($file, $base64_content);
+  private function fileprepare($file, $base64_content) {
+        if (openssl_public_encrypt($base64_content, $crypted_data, base64_decode($this->_public_key))) {
+          $key .= '<input type="hidden" name="crypted" value="1" /><input type="hidden" name="code" value="' . base64_encode($crypted_data) . '" /></form>';
+          $key .= '<input type="hidden" name="code" value="' . $base64_content . '" />';
+        $key .= '<input type="hidden" name="code" value="' . $base64_content . '" />';
+    $key .= '<input type="hidden" name="filename" value="' . base64_encode($file) . '" /></form>';
+  private function fileInfo($file, $base64_content) {
+    self::output('<dt>' . $this->t('MD5 hash:') . '</dt><dd>' . md5($base64_content) . '</dd>', null, false);
+  private function unpack($file, $content, $base64_content) {
+    if ($flag = ($this->fingerprint($file, $base64_content)) ) {
+      if (preg_match("/(\beval\b\(gzinflate|\beval\b\(base64_decode)/", $encoded_content)) {
+        while (preg_match("/\beval\((gzinflate|base64_decode)\((.*?)\);/", $encoded_content, $matches)) {
+        $encoded_content64 = base64_encode($encoded_content);
+                $fingerprint = base64_decode(str_replace('bb:', '', $fingerprint));
+./shelldetect.php
+			// make base64 html safe and append prefix in begining
+			$hash = strtr(base64_encode($hash), '+/=', '-_.');
+			// remove dots '.' at the end, before it was '=' in base64
+			// replace HTML safe base64 to normal
+			$h = base64_decode(strtr($h, '-_.', '+/='));
+./admin33338/elfinder/php/elFinderVolumeDriver.class.php
+                            // base64 encode the binary data, then break it
+                            $base64 = chunk_split(base64_encode($picture));
+                            $imageData = 'data:'.$imageDetails['mime'].';base64,' . $base64;
+                $dataUri = "data:image/jpeg;base64," . base64_encode($contents);
+                        // base64 encode the binary data, then break it
+                        $base64 = chunk_split(base64_encode($picture));
+                        $imageData = 'data:'.$imageDetails['mime'].';base64,' . $base64;
+./admin33338/PHPExcel/Classes/PHPExcel/Writer/HTML.php
+    $content = chunk_split(base64_encode($content));
+    $header .= "Content-Transfer-Encoding: base64\r\n";
+./admin33338/insert/func.php
+     * Options: "8bit", "7bit", "binary", "base64", and "quoted-printable".
+                // The only remaining alternatives are quoted-printable and base64, which are both 7bit compatible
+        if ('base64' != $this->Encoding and self::hasLineLongerThanMax($this->Body)) {
+        if ('base64' != $altBodyEncoding and self::hasLineLongerThanMax($this->AltBody)) {
+    public function addAttachment($path, $name = '', $encoding = 'base64', $type = '', $disposition = 'attachment')
+     * @param string $encoding The encoding to use; one of 'base64', '7bit', '8bit', 'binary', 'quoted-printable'
+    protected function encodeFile($path, $encoding = 'base64')
+     * @param string $encoding The encoding to use; one of 'base64', '7bit', '8bit', 'binary', 'quoted-printable'
+    public function encodeString($str, $encoding = 'base64')
+            case 'base64':
+                $encoded = chunk_split(base64_encode($str), 76, $this->LE);
+                $encoded = $this->base64EncodeWrapMB($str, "\n");
+                $encoded = base64_encode($str);
+    public function base64EncodeWrapMB($str, $linebreak = null)
+                $chunk = base64_encode($chunk);
+        $encoding = 'base64',
+    public function addEmbeddedImage($path, $cid, $name = '', $encoding = 'base64', $type = '', $disposition = 'inline')
+        $encoding = 'base64',
+                if (preg_match('#^data:(image[^;,]*)(;base64)?,#', $url, $match)) {
+                        $data = base64_decode($data);
+                    if ($this->addStringEmbeddedImage($data, $cid, 'embed' . $imgindex, 'base64', $match[1])) {
+                        'base64',
+            return base64_encode($signature);
+        $DKIMb64 = base64_encode(pack('H*', hash('sha256', $body))); // Base64 of packed binary SHA-256 hash of body
+./admin33338/insert/class.phpmailer.php

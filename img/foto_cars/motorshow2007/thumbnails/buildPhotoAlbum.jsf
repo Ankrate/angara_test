@@ -1,0 +1,308 @@
+App.progressCountTotal = 38;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/00007828_AAA.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = '00007828_AAA.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/00007828_AAA_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/00007828_AAA_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/00007828_AAA_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/00007828_AAA_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/00007828_AAA_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/00007828_AAA_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/0405253140543.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = '0405253140543.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/0405253140543_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/0405253140543_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/0405253140543_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/0405253140543_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/0405253140543_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/0405253140543_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/04055978_20070406.JPG');
+App.progressCountCurrent = 3;
+App.batchStatusString = '04055978_20070406.JPG';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/04055978_20070406_JPG.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/04055978_20070406_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/04055978_20070406_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/04055978_20070406_JPG.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/04055978_20070406_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/04055978_20070406_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/0413146113134.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = '0413146113134.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/0413146113134_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/0413146113134_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/0413146113134_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/0413146113134_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/0413146113134_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/0413146113134_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/0413147113213.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = '0413147113213.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/0413147113213_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/0413147113213_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/0413147113213_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/0413147113213_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/0413147113213_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/0413147113213_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/20070405030403.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = '20070405030403.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/20070405030403_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/20070405030403_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/20070405030403_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/20070405030403_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/20070405030403_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/20070405030403_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/200704111623271001_2.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = '200704111623271001_2.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/200704111623271001_2_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/200704111623271001_2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/200704111623271001_2_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/200704111623271001_2_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/200704111623271001_2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/200704111623271001_2_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/200704111623271001_3.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = '200704111623271001_3.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/200704111623271001_3_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/200704111623271001_3_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/200704111623271001_3_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/200704111623271001_3_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/200704111623271001_3_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/200704111623271001_3_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/200704111623271001_4.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = '200704111623271001_4.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/200704111623271001_4_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/200704111623271001_4_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/200704111623271001_4_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/200704111623271001_4_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/200704111623271001_4_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/200704111623271001_4_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/66213_0.44691300.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = '66213_0.44691300.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/66213_0_44691300_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/66213_0_44691300_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/66213_0_44691300_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/66213_0_44691300_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/66213_0_44691300_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/66213_0_44691300_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_2007040513195630003200-001.JPG');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'htm_2007040513195630003200-001.JPG';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007040513195630003200-001_JPG.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007040513195630003200-001_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007040513195630003200-001_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007040513195630003200-001_JPG.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007040513195630003200-001_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007040513195630003200-001_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_2007040517094130003200-001.JPG');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'htm_2007040517094130003200-001.JPG';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007040517094130003200-001_JPG.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007040517094130003200-001_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007040517094130003200-001_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007040517094130003200-001_JPG.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007040517094130003200-001_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007040517094130003200-001_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_2007040609400830003200-001.JPG');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'htm_2007040609400830003200-001.JPG';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007040609400830003200-001_JPG.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007040609400830003200-001_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007040609400830003200-001_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007040609400830003200-001_JPG.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007040609400830003200-001_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007040609400830003200-001_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_2007040616335530003200-001.JPG');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'htm_2007040616335530003200-001.JPG';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007040616335530003200-001_JPG.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007040616335530003200-001_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007040616335530003200-001_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007040616335530003200-001_JPG.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007040616335530003200-001_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007040616335530003200-001_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_2007040816221030003200-001.JPG');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'htm_2007040816221030003200-001.JPG';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007040816221030003200-001_JPG.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007040816221030003200-001_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007040816221030003200-001_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007040816221030003200-001_JPG.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007040816221030003200-001_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007040816221030003200-001_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_2007041111360702030000020301007a1-001.jpg');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'htm_2007041111360702030000020301007a1-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007041111360702030000020301007a1-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007041111360702030000020301007a1-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007041111360702030000020301007a1-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007041111360702030000020301007a1-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007041111360702030000020301007a1-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007041111360702030000020301007a1-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_20070411115706020300000203010045f-001.jpg');
+App.progressCountCurrent = 17;
+App.batchStatusString = 'htm_20070411115706020300000203010045f-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_20070411115706020300000203010045f-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_20070411115706020300000203010045f-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_20070411115706020300000203010045f-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_20070411115706020300000203010045f-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_20070411115706020300000203010045f-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_20070411115706020300000203010045f-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_200704111212080203000002030100271-001.jpg');
+App.progressCountCurrent = 18;
+App.batchStatusString = 'htm_200704111212080203000002030100271-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704111212080203000002030100271-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704111212080203000002030100271-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704111212080203000002030100271-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704111212080203000002030100271-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704111212080203000002030100271-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704111212080203000002030100271-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_20070411153908020300000203010062e-001.jpg');
+App.progressCountCurrent = 19;
+App.batchStatusString = 'htm_20070411153908020300000203010062e-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_20070411153908020300000203010062e-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_20070411153908020300000203010062e-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_20070411153908020300000203010062e-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_20070411153908020300000203010062e-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_20070411153908020300000203010062e-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_20070411153908020300000203010062e-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_2007041116030502030000020301005e0-001.jpg');
+App.progressCountCurrent = 20;
+App.batchStatusString = 'htm_2007041116030502030000020301005e0-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007041116030502030000020301005e0-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007041116030502030000020301005e0-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007041116030502030000020301005e0-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007041116030502030000020301005e0-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007041116030502030000020301005e0-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007041116030502030000020301005e0-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_200704111654050203000002030100027-001.jpg');
+App.progressCountCurrent = 21;
+App.batchStatusString = 'htm_200704111654050203000002030100027-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704111654050203000002030100027-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704111654050203000002030100027-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704111654050203000002030100027-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704111654050203000002030100027-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704111654050203000002030100027-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704111654050203000002030100027-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_200704111724060203000002030100f50-001.jpg');
+App.progressCountCurrent = 22;
+App.batchStatusString = 'htm_200704111724060203000002030100f50-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704111724060203000002030100f50-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704111724060203000002030100f50-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704111724060203000002030100f50-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704111724060203000002030100f50-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704111724060203000002030100f50-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704111724060203000002030100f50-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_20070411172705020300000203010064b-001.jpg');
+App.progressCountCurrent = 23;
+App.batchStatusString = 'htm_20070411172705020300000203010064b-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_20070411172705020300000203010064b-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_20070411172705020300000203010064b-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_20070411172705020300000203010064b-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_20070411172705020300000203010064b-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_20070411172705020300000203010064b-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_20070411172705020300000203010064b-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_200704131245060203000002030100dbc-001.jpg');
+App.progressCountCurrent = 24;
+App.batchStatusString = 'htm_200704131245060203000002030100dbc-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131245060203000002030100dbc-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131245060203000002030100dbc-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131245060203000002030100dbc-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131245060203000002030100dbc-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131245060203000002030100dbc-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131245060203000002030100dbc-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_200704131251050203000002030100e82-001.jpg');
+App.progressCountCurrent = 25;
+App.batchStatusString = 'htm_200704131251050203000002030100e82-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131251050203000002030100e82-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131251050203000002030100e82-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131251050203000002030100e82-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131251050203000002030100e82-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131251050203000002030100e82-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131251050203000002030100e82-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_200704131251170203000002030100d5c-001.jpg');
+App.progressCountCurrent = 26;
+App.batchStatusString = 'htm_200704131251170203000002030100d5c-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131251170203000002030100d5c-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131251170203000002030100d5c-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131251170203000002030100d5c-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131251170203000002030100d5c-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131251170203000002030100d5c-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131251170203000002030100d5c-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_2007041313000502030000020301003d9-001.jpg');
+App.progressCountCurrent = 27;
+App.batchStatusString = 'htm_2007041313000502030000020301003d9-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007041313000502030000020301003d9-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007041313000502030000020301003d9-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007041313000502030000020301003d9-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007041313000502030000020301003d9-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007041313000502030000020301003d9-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007041313000502030000020301003d9-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_2007041313030502030000020301008a5-001.jpg');
+App.progressCountCurrent = 28;
+App.batchStatusString = 'htm_2007041313030502030000020301008a5-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007041313030502030000020301008a5-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007041313030502030000020301008a5-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007041313030502030000020301008a5-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007041313030502030000020301008a5-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007041313030502030000020301008a5-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007041313030502030000020301008a5-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_200704131309170203000002030100058-001.jpg');
+App.progressCountCurrent = 29;
+App.batchStatusString = 'htm_200704131309170203000002030100058-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131309170203000002030100058-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131309170203000002030100058-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131309170203000002030100058-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131309170203000002030100058-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131309170203000002030100058-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131309170203000002030100058-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_20070413131804020300000203010084c-001.jpg');
+App.progressCountCurrent = 30;
+App.batchStatusString = 'htm_20070413131804020300000203010084c-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_20070413131804020300000203010084c-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_20070413131804020300000203010084c-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_20070413131804020300000203010084c-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_20070413131804020300000203010084c-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_20070413131804020300000203010084c-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_20070413131804020300000203010084c-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_200704131327050203000002030100587-001.jpg');
+App.progressCountCurrent = 31;
+App.batchStatusString = 'htm_200704131327050203000002030100587-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131327050203000002030100587-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131327050203000002030100587-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131327050203000002030100587-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131327050203000002030100587-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131327050203000002030100587-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131327050203000002030100587-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_200704131330050203000002030100f47-001.jpg');
+App.progressCountCurrent = 32;
+App.batchStatusString = 'htm_200704131330050203000002030100f47-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131330050203000002030100f47-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131330050203000002030100f47-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131330050203000002030100f47-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131330050203000002030100f47-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131330050203000002030100f47-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131330050203000002030100f47-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_2007041314030502030000020301005e8-001.jpg');
+App.progressCountCurrent = 33;
+App.batchStatusString = 'htm_2007041314030502030000020301005e8-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007041314030502030000020301005e8-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007041314030502030000020301005e8-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_2007041314030502030000020301005e8-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007041314030502030000020301005e8-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007041314030502030000020301005e8-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_2007041314030502030000020301005e8-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_200704131403140203000002030100ede-001.jpg');
+App.progressCountCurrent = 34;
+App.batchStatusString = 'htm_200704131403140203000002030100ede-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131403140203000002030100ede-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131403140203000002030100ede-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131403140203000002030100ede-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131403140203000002030100ede-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131403140203000002030100ede-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131403140203000002030100ede-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_200704131403240203000002030100777-001.jpg');
+App.progressCountCurrent = 35;
+App.batchStatusString = 'htm_200704131403240203000002030100777-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131403240203000002030100777-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131403240203000002030100777-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131403240203000002030100777-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131403240203000002030100777-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131403240203000002030100777-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131403240203000002030100777-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/htm_200704131715050203000002030100214-001.jpg');
+App.progressCountCurrent = 36;
+App.batchStatusString = 'htm_200704131715050203000002030100214-001.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131715050203000002030100214-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131715050203000002030100214-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/htm_200704131715050203000002030100214-001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131715050203000002030100214-001_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131715050203000002030100214-001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/htm_200704131715050203000002030100214-001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/SSI_20070408160855_O.jpg');
+App.progressCountCurrent = 37;
+App.batchStatusString = 'SSI_20070408160855_O.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/SSI_20070408160855_O_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/SSI_20070408160855_O_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/SSI_20070408160855_O_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/SSI_20070408160855_O_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/SSI_20070408160855_O_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/SSI_20070408160855_O_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/motorshow2007/View_18758_28(0).jpg');
+App.progressCountCurrent = 38;
+App.batchStatusString = 'View_18758_28(0).jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/View_18758_28(0)_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/View_18758_28(0)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/images/View_18758_28(0)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/View_18758_28(0)_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/View_18758_28(0)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/motorshow2007/thumbnails/View_18758_28(0)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+'done';

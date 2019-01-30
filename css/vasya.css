@@ -1,0 +1,233 @@
+.akb-form-control-1 {
+	height: 45px;
+	min-width: 200px;
+	max-width: 200px;
+	
+	
+}
+.akb-text-title {
+	font-size: 12px;
+	
+}
+.akb-cena-manager {
+	font-size: 20px;
+	
+	
+}
+.akb-btn-group-sm {
+	min-height: 20px;
+	max-height: 50px;
+	background-color:#2C3E50;
+	margin-top: 20px;
+	padding: 10px 15px;
+}
+.akb-col-md {
+	font-size: 100%;
+
+}
+
+.akb-show-brand-slide {
+	display:block;
+
+}
+.akb-flex-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 10px; 
+}
+.akb-nazvanie-brand {
+  size: 12px;
+}
+.akb-brandy-kart{
+	
+	background-color: #ffffff;
+}
+.akb-brandy-kart:hover{
+    border: 4px solid #2c3e50;
+	background-color: #ecf1f2;
+   }
+.akb-btn-21 {
+	padding: 2px 2px;
+	
+}
+.akb-pad1 {
+	padding-bottom: 15px;
+	
+}
+
+.akb-avatar {
+   display:flex;
+   text-align: center;
+}
+
+.akb-avatar1 {
+   height:300px;
+   text-align:center;
+}
+
+.akb-face-tovar {
+	border:1px solid rgba(119, 204, 221, 0.25);
+	
+		padding-top: 1px;
+		padding-left: -14px;
+		padding-right: -14px;
+		padding-bottom: 1px;
+		
+		margin-top: 1px;
+		margin-left: -14px;
+		margin-right: -14px;
+		margin-bottom: 1px;
+		
+}
+.akb-text-atributs {
+	margin-bottom: 10px ;
+	padding: 0;
+	font-size: 15px;
+	text-align:left;
+}
+.akb-text-atributs1 {
+	font-size: 15px;
+	text-align:center;
+	margin: 0;
+	padding: 0;
+}
+.akb-list-emkost13 {
+	list-style: none; /* Убираем исходные маркеры */
+    background: url(../img/emkost-sm.jpg) left center no-repeat ; /* Параметры фона */
+    padding: 4px 0 0px 24px; /* Смещаем текст вправо */ 
+}	
+.akb-list-current13 {
+	list-style: none; /* Убираем исходные маркеры */
+    background: url(../img/current-sm.jpg) left center no-repeat; /* Параметры фона */
+    padding: 4px 0 2px 24px; /* Смещаем текст вправо */ 
+}
+.akb-list-size13 {
+	list-style: none; /* Убираем исходные маркеры */
+    background: url(../img/size-sm.jpg) left center no-repeat; /* Параметры фона */
+    padding: 4px 0 4px 24px; /* Смещаем текст вправо */ 
+}
+.akb-list-polarity13 {
+	list-style: none; /* Убираем исходные маркеры */
+    background: url(../img/polarity-sm.jpg) left center no-repeat; /* Параметры фона */
+    padding: 4px 0 4px 24px; /* Смещаем текст вправо */ 
+}
+.akb-list-emkost {
+	list-style: none; /* Убираем исходные маркеры */
+    background: url(../img/emkost30.jpg) left center no-repeat; /* Параметры фона */
+    padding: 10px 0 0px 45px; /* Смещаем текст вправо */ 
+}	
+.akb-list-current {
+	list-style: none; /* Убираем исходные маркеры */
+    background: url(../img/current30.jpg) left center no-repeat; /* Параметры фона */
+    padding: 10px 0 2px 45px; /* Смещаем текст вправо */ 
+}
+.akb-list-size {
+	list-style: none; /* Убираем исходные маркеры */
+    background: url(../img/size30.jpg) left center no-repeat; /* Параметры фона */
+    padding: 10px 0 4px 45px; /* Смещаем текст вправо */ 
+}
+.akb-list-polarity {
+	list-style: none; /* Убираем исходные маркеры */
+    background: url(../img/polarity30.jpg) left center no-repeat; /* Параметры фона */
+    padding: 10px 0 4px 45px; /* Смещаем текст вправо */ 
+}
+
+.akb-list-country {
+	list-style: none; /* Убираем исходные маркеры */
+    background: url(../img/country30.jpg) left center no-repeat; /* Параметры фона */
+    padding: 10px 0 4px 45px; /* Смещаем текст вправо */ 
+}
+.akb-list-weight {
+	list-style: none; /* Убираем исходные маркеры */
+    background: url(../img/weight30.jpg) left center no-repeat; /* Параметры фона */
+    padding: 10px 0 4px 45px; /* Смещаем текст вправо */ 
+}
+.akb-list-brand {
+	list-style: none; /* Убираем исходные маркеры */
+    background: url(../img/brand30.jpg) left center no-repeat; /* Параметры фона */
+    padding: 10px 0 4px 45px; /* Смещаем текст вправо */ 
+}	
+.akb-list-input {
+	list-style: none; /* Убираем исходные маркеры */
+    background: url(../img/klemmy30.jpg) left center no-repeat; /* Параметры фона */
+    padding: 10px 0 4px 45px; /* Смещаем текст вправо */ 
+}	
+.akb-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 300px;
+  padding: 15px;
+}
+.akb-flex1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.akb-but-size {
+	width: 100%;
+	height:25px;
+	padding: 0px 0px;
+	margin-right: 2px;
+}
+.akb-btn1 {
+	margin-bottom:0px;
+	min-width: 100%;
+	
+	
+	background-color:#2C3E50;
+	
+}
+.akb-btn2 {
+	margin-bottom:0px;
+	background-color:#ecf0f1;
+	width:100%;
+	height:35px;
+	
+}
+.akb-cena {
+	    margin-top: 0px;
+    margin-bottom: 0px;
+    color:#008000;
+    
+}
+	
+.akb-item1 {
+  width: 150px;
+  height: 80px;
+  background-color: green;
+  margin-right: 5px;
+  margin-left: 5px;
+ }
+
+.akb-ul-padding-left {
+	padding-left:10px; 
+}
+.akb-ul-padding-right {
+	padding-right:30px;
+	padding-left:10px;
+}
+.akb-img-link {
+	height: 100px;
+	weight: 100px;
+}
+.akb-ramka-tovar {
+	border: 2px;
+	border-color: #1a242f91;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	
+}
+.akb-text-min {
+	min-height: 45px;
+}
+.akb-foto-min1 {
+	max-width: 100%;
+	max-height: ;  
+}
+
+

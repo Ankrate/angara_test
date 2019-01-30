@@ -1,0 +1,100 @@
+App.progressCountTotal = 12;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/exhib/hyundai_den.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'hyundai_den.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/exhib/hyundai_den1.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'hyundai_den1.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den1_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den1_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den1_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den1_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/exhib/hyundai_den10.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'hyundai_den10.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den10_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den10_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den10_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den10_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den10_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den10_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/exhib/hyundai_den11.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'hyundai_den11.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den11_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den11_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den11_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den11_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den11_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den11_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/exhib/hyundai_den2.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'hyundai_den2.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den2_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den2_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den2_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den2_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/exhib/hyundai_den3.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'hyundai_den3.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den3_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den3_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den3_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den3_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den3_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den3_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/exhib/hyundai_den4.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'hyundai_den4.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den4_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den4_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den4_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den4_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den4_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den4_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/exhib/hyundai_den5.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'hyundai_den5.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den5_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den5_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den5_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den5_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den5_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den5_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/exhib/hyundai_den6.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'hyundai_den6.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den6_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den6_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den6_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den6_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den6_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den6_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/exhib/hyundai_den7.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'hyundai_den7.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den7_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den7_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den7_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den7_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den7_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den7_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/exhib/hyundai_den8.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'hyundai_den8.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den8_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den8_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den8_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den8_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den8_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den8_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/DocumentsNout/MaterialsForSite/porter/album/exhib/hyundai_den9.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'hyundai_den9.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den9_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den9_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/images/hyundai_den9_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den9_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den9_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/exhib/img/foto_cars/exhib/thumbnails/hyundai_den9_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

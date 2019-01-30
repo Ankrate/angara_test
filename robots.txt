@@ -1,0 +1,31 @@
+User-agent: *
+Disallow: /*from=adwords
+Disallow: /*utm_source
+Disallow: /admin33338/
+Disallow: /price/*
+Disallow: /order/
+Host: angara77.com
+Sitemap: http://angara77.com/sitemap.xml
+
+User-agent: Yandex
+Disallow: /*search
+Disallow: /*_openstat
+Disallow: /*from=adwords
+Disallow: /*utm_source
+Disallow: /admin33338/
+Disallow: /price/*
+Disallow: /order/
+Host: angara77.com
+Sitemap: http://angara77.com/sitemap.xml
+
+User-agent: Googlebot
+Disallow: /*search
+Disallow: /*_openstat
+Disallow: /*from=adwords
+Disallow: /*utm_source
+Disallow: /admin33338/
+Disallow: /*search
+Disallow: /price/*
+Disallow: /order/
+Host: angara77.com
+Sitemap: http://angara77.com/sitemap.xml

@@ -1,0 +1,290 @@
+<?php
+$angara = 'http://angara77.com';
+
+$video = array(	'name' => 'Головка <br />блока в сборе',
+				'price' =>'16900 р.',
+				'video' =>'qeq2S-vs_hQ',
+				'cat'  => '22210042701'
+				);
+
+$img1 = array(	'name' => 'Головка блока',
+				'price' => '24990',
+				'link' => '001-head.jpg',
+				'cat'  => '22210042701'
+				
+				 );
+
+$img2 = array(	'name' => 'Головка <br />блока в сборе',
+				'price' => '16900',
+				'link' => '002-head.jpg',
+				'cat'  => '22210042701'
+				
+				 );
+$img3 = array(	'name' => 'Головка <br />блока уценка',
+				'price' => '12900',
+				'link' => '003-head.jpg',
+				'cat'  => '22210042701'
+				
+				 );				 
+$img4 = array(	'name' => 'Головка <br />блока оригинал',
+				'price' => '29350',
+				'link' => '004-head.jpg',
+				'cat'  => '22210042701'
+				
+				 );
+
+$title = 'Головка блока на Портер';
+
+
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title><?=$title?></title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/modal.js"></script>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="header">		
+				<div class="top">
+					<div class="block">
+						<a href="#" class="logo"></a>
+						<h1>Быстрая доставка запчастей<br />по России и странам СНГ</h1>
+						<div class="phone">
+							<span class="tel" class="ya-phone">8-495-646-99-53</span>
+							<a href="#dialog" name="modal"> закажи звонок</a>						
+						</div>
+					</div>
+				</div>
+			</div><!--/header-->
+			<div class="main">
+			<div class="top-car">
+				<div class="block">
+					<h2><span>Запчасти для Hyundai </span>PORTER, HD65, HD72, HD78, HD120</h2>
+					<div class="form">
+						<form action='index.php' method='post'>
+							<input type="hidden" name="request" value="1"/>
+							<h3> Оставь заявку и получи<span>подарок к заказу</span></h3>
+							<input type="text" placeholder="Имя*" name='f_name' required="required"/>
+							<input type="text" placeholder="E-mail*" name='f_mail' required="required"/>
+							<input type="text" placeholder="Телефон*" name='f_phone' required="required"/>
+							<button>отправить заявку</button>
+							<span class="b-text">Ваши данные не будут переданы 3-м лицам</span>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="content">
+				<div class="you-searched">
+					<div class="block" id="video">
+						<h2 class="black">Вы искали</h2>
+						<div class="description">
+							<h3><?=$video['name']?></h3>
+							<span><?=$video['cat']?> <br />PORTER ПОРТЕР</span>
+						</div>
+							<iframe width="560" height="315" src="//www.youtube.com/embed/<?=$video['video']?>" frameborder="0" allowfullscreen></iframe>
+						<!--<img src="images/1.png" />-->
+						<div class="buy">
+							<span class="cost"><?=$video['price']?></span>
+							<a href="#dialog" name="modal">купить в 1 клик</a>
+						</div>
+					</div>
+				</div>
+				<div class="other-option">
+					<div class="block">
+						<h2 class="white">другие варианты</h2>
+						<div class="item">
+							<h3><?=$img1['name']?></h3>
+							<span class="model"><?=$img1['cat']?> <br />PORTER ПОРТЕР</span>
+							<img src="images/<?=$img1['link']?>" width="150px"/>
+							<span class="cost"><?=$img1['price']?>p.</span>
+							<a href="#dialog" name="modal">купить в 1 клик</a>
+						</div>
+						<div class="item">
+							<h3><?=$img2['name']?></h3>
+							<span class="model"><?=$img2['cat']?> <br />PORTER ПОРТЕР</span>
+							<img src="images/<?=$img2['link']?>" width="150px"/>
+							<span class="cost"><?=$img2['price']?>p.</span>
+							<a href="#dialog" name="modal">купить в 1 клик</a>
+						</div>
+						<div class="item">
+							<h3><?=$img3['name']?></h3>
+							<span class="model"><?=$img3['cat']?> <br />PORTER ПОРТЕР</span>
+							<img src="images/<?=$img3['link']?>" width="150px"/>
+							<span class="cost"><?=$img3['price']?>p.</span>
+							<a href="#dialog" name="modal">купить в 1 клик</a>
+						</div>
+						<div class="item">
+							<h3><?=$img4['name']?></h3>
+							<span class="model"><?=$img4['cat']?> <br />PORTER ПОРТЕР</span>
+							<img src="images/<?=$img4['link']?>" width="150px"/>
+							<span class="cost"><?=$img4['price']?>p.</span>
+							<a href="#dialog" name="modal">купить в 1 клик</a>
+						</div>
+					</div>
+				</div>
+				<div class="advantages">
+					<div class="block">
+						<h2 class="black">наши приемущества</h2>
+						<div class="item ico1">
+							<span>5 минут от заявки <br />до звонка</span>
+						</div>
+						<div class="item ico2">
+							<span>99% <br />в наличии</span>
+						</div>
+						<div class="item ico3">
+							<span>100% Гарантия <br />возврата </span>
+						</div>
+						<div class="item ico4">
+							<span>100% Гарантия <br />качества</span>
+						</div>
+						<div class="item ico5">
+							<span>24/7<br />Работаем </span>
+						</div>
+					</div>
+				</div>
+				<div class="order">
+					<div class="block">
+						<h2 class="white">Как сделать заказ </h2>
+						<div class="order-block">
+							<span class="text1">Звонок<br />заявка</span>
+							<span class="text2"> Оформление <br />документов</span>
+							<span class="text3"> Доставка <br />заказа</span>
+						</div>
+					</div>
+				</div>
+				<div class="reviews">
+					<div class="block">
+						<h2 class="black mb">отзывы клиентов</h2>
+						<div class="rew-line">
+							<div class="item">
+								<div class="top">
+									<img src="images/reviews/002.jpg" />
+									<span class="name">Михаил<br />Медведев</span>
+								</div>
+								<p>«… в Вашем магазине всегда рады клиентам, приятные и отзывчивые сотрудники. Все в лучшем виде!»</p>
+							</div>
+							<div class="item">
+								<div class="top">
+									<img src="images/reviews/003.jpg" />
+									<span class="name">Михаил<br />Добродеев</span>
+								</div>
+								<p>«Нормальная фирма, все есть, близко от дома, хорошие сотрудники»</p>
+							</div>
+						</div>
+						<div class="rew-line">
+							<div class="item">
+								<div class="top">
+									<img src="images/reviews/001.jpg" />
+									<span class="name">Владимир,<br />Адмаев</span>
+								</div>
+								<p>«Хорошие цены, все в наличии. Коллектив хороший»</p>
+							</div>
+							<div class="item">
+								<div class="top">
+									<img src="images/reviews/004.jpg" />
+									<span class="name">Водитель<br />ООО "Патриот"</span>
+								</div>
+								<p>Цены хорошие и все, что надо, есть в наличии. Чего еще желать??))</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="question">
+					<div class="block">
+						<span class="girl"></span>
+						<div class="question-text">
+							<span>Остались<br /> вопросы?</span>
+							<a href="#dialog" name="modal">задайте их менеджеру</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			</div><!--/main-->
+			<div class="footer">
+				<div class="block">
+					<a href="#" class="logo"></a>
+					<p><a class="footer_link" href="<?=$angara?>">ООО «Ангара»</a>. Юр. адрес: 125466, г. Москва, ул. Соловьиная-Роща, д.8 к2 <br />
+ОГРН 5077746795418  ИНН 7733607590 КПП 773301001 <br />
+Расч./счет 40702810170030424301 ОАО «Промсвязьбанк» г. Москва<br />
+к/с 30101810400000000555 БИК 044525555</p>
+						<div class="phone">
+							<span class="tel" class="ya-phone">8-(495)646-99-53</span>
+							<a href="#dialog" name="modal"> закажи звонок</a>						
+						</div>
+				</div>
+			</div><!--/footer-->
+		</div><!--/wrap-->
+<div id="boxes">
+
+<div id="dialog" class="window">
+<div class="form">
+						<form action='index.php' method='post'>
+							<input type="hidden" name="request" value="1"/>
+							<h3> Оставь заявку и получи<span>подарок к заказу</span></h3>
+							<input type="text" placeholder="Имя*" name='f_name' required="required"/>
+							<input type="text" placeholder="E-mail*" name='f_mail' required="required"/>
+							<input type="text" placeholder="Телефон*" name='f_phone' required="required"/>
+							<button>отправить заявку</button>
+							<span class="b-text">Ваши данные не будут переданы 3-м лицам</span>
+						</form>
+					</div>
+
+</div>
+  
+
+
+<!-- Mask to cover the whole screen -->
+  <div id="mask"></div>
+</div>		
+
+<?php
+    	if(isset ($_POST['request'])) {
+		$f_name = @ trim ($_POST['f_name']);
+		$f_mail = @ trim ($_POST['f_mail']);
+        $f_phone = @ trim ($_POST['f_phone']);	
+	    mail ("angara99@gmail.com",
+	    "Заявка",
+	    "ФИО: $f_name\nE-mail: $f_mail\nТелефон: $f_phone\n", "Content-type: text/plain; charset=\"utf-8\"");
+         unset($_POST);
+        echo ('<script>jQuery(document).ready(function(){PopUpShowOk()});</script>');
+        } 
+?>
+<!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=26515470&amp;from=informer"
+target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/26515470/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:26515470,lang:'ru'});return false}catch(e){}"/></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter26515470 = new Ya.Metrika({id:26515470,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/26515470" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->		
+	</body>
+</html>

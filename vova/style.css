@@ -1,0 +1,8 @@
+.item{
+    width: 300px;
+    height: 300px;
+}
+
+.item-active{
+    border: 3px solid blue;
+}

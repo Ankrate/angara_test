@@ -1,0 +1,188 @@
+App.progressCountTotal = 23;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hed4_1.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'hed4_1.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_1_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_1_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_1_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_1_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hed4_2.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'hed4_2.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_2_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_2_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_2_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_2_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hed4_3.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'hed4_3.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_3_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_3_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_3_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_3_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_3_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_3_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hed4_5.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'hed4_5.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_5_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_5_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_5_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_5_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_5_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_5_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hed4_6.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'hed4_6.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_6_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_6_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_6_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_6_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_6_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_6_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hed4_7.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'hed4_7.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_7_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_7_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_7_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_7_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_7_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_7_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hed4_8.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'hed4_8.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_8_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_8_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_8_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_8_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_8_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_8_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hed4_9.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'hed4_9.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_9_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_9_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_9_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_9_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_9_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_9_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hyundai_hed_4_1.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'hyundai_hed_4_1.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_1_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_1_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_1_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_1_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hyundai_hed_4_2.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'hyundai_hed_4_2.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_2_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_2_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_2_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_2_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hyundai_hed_4_3.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'hyundai_hed_4_3.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_3_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_3_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_3_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_3_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_3_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_3_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hyundai_hed_4_4.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'hyundai_hed_4_4.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_4_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_4_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_4_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_4_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_4_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_4_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hyundai_hed_4_5.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'hyundai_hed_4_5.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_5_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_5_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_5_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_5_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_5_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_5_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hyundai_hed_4_6.jpg');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'hyundai_hed_4_6.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_6_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_6_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_6_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_6_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_6_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_6_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hyundai_hed_4_7.jpg');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'hyundai_hed_4_7.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_7_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_7_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_7_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_7_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_7_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_7_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hyundai_hed_4_8.jpg');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'hyundai_hed_4_8.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_8_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_8_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_8_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_8_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_8_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_8_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hyundai_hed_4_9.jpg');
+App.progressCountCurrent = 17;
+App.batchStatusString = 'hyundai_hed_4_9.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_9_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_9_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_9_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_9_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_9_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_9_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hyundai_hed_4_10.jpg');
+App.progressCountCurrent = 18;
+App.batchStatusString = 'hyundai_hed_4_10.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_10_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_10_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_10_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_10_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_10_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_10_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hyundai_hed_4_11.jpg');
+App.progressCountCurrent = 19;
+App.batchStatusString = 'hyundai_hed_4_11.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_11_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_11_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_11_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_11_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_11_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_11_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hyundai_hed_4_12.jpg');
+App.progressCountCurrent = 20;
+App.batchStatusString = 'hyundai_hed_4_12.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_12_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_12_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_12_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_12_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_12_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_12_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hyundai_hed_4_13.jpg');
+App.progressCountCurrent = 21;
+App.batchStatusString = 'hyundai_hed_4_13.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_13_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_13_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_13_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_13_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_13_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_13_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hyundai_hed_4_14.jpg');
+App.progressCountCurrent = 22;
+App.batchStatusString = 'hyundai_hed_4_14.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_14_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_14_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hyundai_hed_4_14_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_14_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_14_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hyundai_hed_4_14_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///V|/home/localhost/www/porter/img/foto_cars/hed4.jpg');
+App.progressCountCurrent = 23;
+App.batchStatusString = 'hed4.jpg';
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/images/hed4_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_jpg.jpg') || confirm('file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///V|/home/localhost/www/porter/img/foto_cars/hed_4/thumbnails/hed4_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

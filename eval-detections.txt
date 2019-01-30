@@ -1,0 +1,64 @@
+    return eval($this->_createClassCode() . " return true;");
+./phpmorphy-0.3.7/utils/libs/decorator.php
+			header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
+			header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
+			header('Cache-Control: max-age=' . BROWSER_CACHE_MAX_AGE . ', must-revalidate');
+		header ('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
+./img/timthumb.php
+  private $_regex = '%(preg_replace.*\/e|`.*?\$.*?`|\bcreate_function\b|\bpassthru\b|\bshell_exec\b|\bexec\b|\bbase64_decode\b|\bedoced_46esab\b|\beval\b|\bsystem\b|\bproc_open\b|\bpopen\b|\bcurl_exec\b|\bcurl_multi_exec\b|\bparse_ini_file\b|\bshow_source\b)%';
+      if (preg_match("/(\beval\b\(gzinflate|\beval\b\(base64_decode)/", $encoded_content)) {
+        while (preg_match("/\beval\((gzinflate|base64_decode)\((.*?)\);/", $encoded_content, $matches)) {
+          $encoded_content = preg_replace("/<\?php|\?>|<\?|eval/", "", $encoded_content);
+            eval("\$encoded_content = " . $matches[1] . '(' . $matches[2] . ";");
+                eval("\$encoded_content = " . $content_temp . ";");
+            eval("\$encoded_content = preg_replace(" . $matches[1] . '/' . $matches[2] . ');');
+./shelldetect.php
+     * References are immediately evaluated to display their contents.
+./admin33338/PHPExcel/Classes/PHPExcel/Calculation/LookupRef.php
+     *    Returns the modified Bessel function In(x), which is equivalent to the Bessel function evaluated
+     *    @param    float        $x        The value at which to evaluate the function.
+     *    @param    float        $x        The value at which to evaluate the function.
+     *    Returns the modified Bessel function Kn(x), which is equivalent to the Bessel functions evaluated
+     *    @param    float        $x        The value at which to evaluate the function.
+     *    @param    float        $x        The value at which to evaluate the function.
+./admin33338/PHPExcel/Classes/PHPExcel/Calculation/Engineering.php
+     * @param    float        $value            Value at which you want to evaluate the distribution
+     * @param    float        $probability    Probability at which you want to evaluate the distribution
+     * @param    float        $value            Value at which you want to evaluate the distribution
+     * @param    float        $probability    Probability at which you want to evaluate the distribution
+./admin33338/PHPExcel/Classes/PHPExcel/Calculation/Statistical.php
+            // state-dependent character evaluation (order is important)
+            // independent character evaluation (order not important)
+            // establish state-dependent character evaluations
+./admin33338/PHPExcel/Classes/PHPExcel/Calculation/FormulaParser.php
+     *        The arguments must evaluate to logical values such as TRUE or FALSE, or the arguments must be arrays
+     *            the value TRUE or FALSE, in which case it is evaluated as the corresponding boolean value
+     *        The arguments must evaluate to logical values such as TRUE or FALSE, or the arguments must be arrays
+     *            the value TRUE or FALSE, in which case it is evaluated as the corresponding boolean value
+     *        The argument must evaluate to a logical value such as TRUE or FALSE
+     *            the value TRUE or FALSE, in which case it is evaluated as the corresponding boolean value
+     * @param    mixed        $logical    A value or expression that can be evaluated to TRUE or FALSE
+     * Returns one value if a condition you specify evaluates to TRUE and another value if it evaluates to FALSE.
+     *        Condition is any value or expression that can be evaluated to TRUE or FALSE.
+     *            the expression evaluates to TRUE. Otherwise, the expression evaluates to FALSE.
+     *        ReturnIfTrue is the value that is returned if condition evaluates to TRUE.
+     *            For example, if this argument is the text string "Within budget" and the condition argument evaluates to TRUE,
+     *        ReturnIfFalse is the value that is returned if condition evaluates to FALSE.
+     *            For example, if this argument is the text string "Over budget" and the condition argument evaluates to FALSE,
+     * @param    mixed    $condition        Condition to evaluate
+./admin33338/PHPExcel/Classes/PHPExcel/Calculation/Logical.php
+            //    evaluate the criteria against the row data
+./admin33338/PHPExcel/Classes/PHPExcel/Calculation/Database.php
+    //            eval('$v_result = '.$p_options[PCLZIP_CB_PRE_ADD].'(PCLZIP_CB_PRE_ADD, $v_local_header);');
+    //            eval('$v_result = '.$p_options[PCLZIP_CB_POST_ADD].'(PCLZIP_CB_POST_ADD, $v_local_header);');
+    //            eval('$v_result = '.$p_options[PCLZIP_CB_PRE_EXTRACT].'(PCLZIP_CB_PRE_EXTRACT, $v_local_header);');
+    //            eval('$v_result = '.$p_options[PCLZIP_CB_POST_EXTRACT].'(PCLZIP_CB_POST_EXTRACT, $v_local_header);');
+    //            eval('$v_result = '.$p_options[PCLZIP_CB_PRE_EXTRACT].'(PCLZIP_CB_PRE_EXTRACT, $v_local_header);');
+    //            eval('$v_result = '.$p_options[PCLZIP_CB_POST_EXTRACT].'(PCLZIP_CB_POST_EXTRACT, $v_local_header);');
+    //            eval('$v_result = '.$p_options[PCLZIP_CB_PRE_EXTRACT].'(PCLZIP_CB_PRE_EXTRACT, $v_local_header);');
+    //            eval('$v_result = '.$p_options[PCLZIP_CB_POST_EXTRACT].'(PCLZIP_CB_POST_EXTRACT, $v_local_header);');
+./admin33338/PHPExcel/Classes/PHPExcel/Shared/PCLZip/pclzip.lib.php
+    // evaluate postfix notation
+./admin33338/PHPExcel/Classes/PHPExcel/Calculation.php
+                    // token is only important for Excel formula evaluator
+./admin33338/PHPExcel/Classes/PHPExcel/Reader/Excel5.php

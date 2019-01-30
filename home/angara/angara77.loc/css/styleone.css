@@ -1,0 +1,341 @@
+/*@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow|Lobster&subset=latin,cyrillic-ext,cyrillic);*/
+
+/*Style one*/
+.header_all {
+	position: relative;	
+}
+
+
+.header_first span, .header_first a {
+	color: #616161;
+	text-align:center;
+	text-decoration: none;
+	
+}
+
+.header_first strong {
+	font-weight: bold;
+}
+
+#logo1  {
+	font-size:20px;
+	font-weight: 500;
+	text-align:center;
+	text-decoration: none;
+	line-height: 1.1em;
+	
+}
+#logo1 {
+	padding-left:10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo1, #logo3 {
+	width: 24%;
+	text-align: -webkit-center;
+	text-align: center;
+}
+#logo3 {
+	font-size: 18px;
+}
+#logo2 {
+	width:43%;
+}
+#logo2 h2 {
+	color: #000;
+}
+.header_first {
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	
+	*display: inline;       
+}
+
+dl.dl_head {
+	line-height: 1.2;
+}
+
+
+
+#btn {
+	
+}
+
+.header_region {
+	width: 48%;
+	/*min-height: 120px;*/
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1px;
+    zoom: 1;
+    *display: inline;
+    font-size:14px;
+   
+    
+}
+
+.header_region span, .header_region > p {
+	margin-right: 80px;
+}
+.header_region img {
+	float:right;
+	
+}
+#red_span {
+	color: red;
+}
+
+#header_call_me {
+	color:red;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+#btn {
+	overflow: hidden;
+	padding: 5px 10px 6px 10px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+	border: 1px solid rgba(0,0,0,0.4);
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+	color: #1C21FE;	
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+#btn:hover {
+	background-color: #8aff00; color: #FFFFFF;
+}
+
+/*Underheader styles*/
+
+
+.underheader_all {
+	width: 700px;
+	margin:0 auto;
+	
+}
+
+.underheader_all > div {
+		
+	min-height: 280px;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	zoom: 1;
+	*display: inline;
+	 _height: 280px;
+	 margin: 20px 2px 0 0;
+	 width: 100%;
+}
+
+.underheader_left {
+	width: 57%;
+	
+}
+
+
+#underheader_left_top > div {
+	
+	min-height: 90px;
+        display: -moz-inline-stack;
+        display: inline-block;
+        vertical-align: top;
+        /*margin: 1px;*/
+        zoom: 1;
+        *display: inline;
+        _height: 90px;
+       /* border: 1px solid blue;*/
+
+}
+
+.count_rev {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700px;
+	padding : 25px 0;
+}
+
+#customer_count {
+	font-size: 20px;
+	font-weight: 700;
+	color: ;
+	padding: 20px 5px;
+	
+	
+}
+#customer_count span {
+	
+	font-size: 16px;
+}
+
+#underheader_left_top span {
+	text-decoration: line-through;
+	color: red;
+}
+#underheader_left_top p {
+	color: red;
+}
+
+#underheader_left_top h5, #underheader_left_top h6 {
+	text-align:center;
+	font-size: 14px;	
+}
+
+.underheader_right {
+	width: 42%
+	
+}
+
+.underheader_right > div {
+	width: 43%;
+	min-height: 90px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    /*margin: 1px;*/
+    zoom: 1;
+    *display: inline;
+    _height: 90px;
+    /*border: 1px solid blue;*/
+	
+}
+/*Content style*/
+.content_category {
+		
+	float:left;
+	margin:10px;
+}
+a[href*="price_hyundai_porter"]  {
+	font-size: 14px;
+	color: #404040
+}
+
+/*Aside styles*/
+#left_menu a {
+	text-decoration: none;
+}
+
+.lefttd {
+	font-size:14px;
+	padding: 5px;
+	background-color: #d0d0d0;
+	/*background: -moz-linear-gradient(center top, #d0d0d0 0%,#fff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #d0d0d0),color-stop(1, #fff));
+	border: 1px solid #e0e0e0;
+	color: #616161;
+	font-weight: normal;*/
+	/*text-shadow: 1px 1px 0px #fff;*/
+	margin:10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0d0d0', endColorstr='#ffffff');
+}
+
+.lefttd p {
+	line-height: 1.1em;
+	font-size: 14px;
+}
+
+.lefttd span {
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+
+
+/*Right side styles*/
+
+.reviews-each {
+	margin: 5px;	
+	border-radius: 5px;
+	padding:5px;
+	min-height: 120px;	
+	background-color: #D0D0D0;
+	font-size: 16px;	
+		
+}
+
+.reviews-each_head {
+	border-radius: 5px;
+	background-color: #D0D0D0;
+	
+	margin: 80px 5px 5px 5px;
+}
+
+.reviews-each h3 {
+	background-color: #d0d0d0;
+	
+}
+
+
+.reviews-each img {
+	float: left;
+	margin:0 10px 10px 5px;
+	box-shadow: none;
+}
+
+
+/*Styles for b1c*/
+
+.b1c-name {
+	/*border:1px solid black;*/
+}
+
+.row:nth-child(1){
+		background :#e0e0e0;		
+		font-weight: 500;
+		font-size:16px;
+		padding:5px;
+		text-align:center; 
+}
+.row:nth-child(even) {
+    background-color: #f8f8f8; /* Цвет фона */
+    
+} 
+.row:nth-child(odd) {
+    background-color: #D0D0D0; /* Цвет фона */
+        
+} 
+
+/*Styles for about.php*/
+
+.about_video_each {
+	width: 350px;
+	min-height: 90px;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	/*margin: 1px;*/
+	zoom: 1;
+	*display: inline;
+	_height: 90px;
+	/*border: 1px solid blue;*/
+}
+.about_video h3 {
+  margin: 10px 0 10px 0;
+  
+}
+.about_video_each {
+    text-align: center;
+}
+.m-p {
+	color: green;
+}
+
+
+/*Footer styles*/
+

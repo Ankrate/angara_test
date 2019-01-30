@@ -1,0 +1,114 @@
+AddDefaultCharset UTF-8
+
+
+#ErrorDocument 401 http://angara77.com
+#ErrorDocument 403 http://angara77.com/404.php
+#ErrorDocument 500 http://angara77.com
+#ErrorDocument 404 http://angara77.com/404.php
+
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine on
+# Adding slash to end of url
+RewriteCond %{REQUEST_URI} !(/$|\.)
+RewriteRule (.*) %{REQUEST_URI}/ [R=301,L]
+
+RewriteBase /
+RewriteRule ^subcat-1-10-2-Rulevoe-upr-Porter/$ http://angara77.com/subcat-1-10-2-Rulevoe-upravlenie-Porter/ [R=301,L]
+
+RewriteRule ^subcat-1-34-3-Toplivnaya-sist-Porter/$ http://angara77.com/subcat-1-34-3-Toplivnaya-sistema-Porter/ [R=301,L]
+RewriteRule ^subcat-1-6-11-Korobka-vsbore-Porter/$  http://angara77.com/subcat-1-6-11-Korobka-v-sbore-Porter/ [R=301,L]
+RewriteRule ^subcat-1-35-1-Kuzov-Porter/$  http://angara77.com/category-1-1-Kuzov-Porter/ [R=301,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*[^/])$ $1/ [L,R=301]
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} !^/admin33338/.*$
+RewriteCond %{THE_REQUEST} ^.*/index\.php
+RewriteRule ^(.*)index.php$ /$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ 404.php [L]
+
+RewriteRule category-([a-zA-Z0-9]+)-([0-9]+)-(.+)/$ category.php?s=$1&s2=$2&s3=$3 [L]
+RewriteRule subcat-([a-zA-Z0-9]+)-([0-9]+)-([0-9]+)-(.+)/$ subcat.php?a=$1&a2=$2&a3=$3&a4=$4 [L]
+RewriteRule porter-([a-zA-Z0-9]+)-([0-9]+)/$ porter_last.php?cat_number=$1&id=$2 [L]
+RewriteRule porter1/([a-zA-Z0-9]+)/$ catalogue/zerro.php?id=$1 [L]
+RewriteRule catalog/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/$ catalogue/zerro_next.php?id=$1&car=$2 [L]
+RewriteRule schema/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/$ catalogue/first.php?id=$1&car=$2 [L]
+RewriteRule cat-number-([a-zA-Z0-9]+)/$ cat_number_new.php?cat=$1 [L]
+
+RewriteRule partnumber-([a-zA-Z0-9]+)/$ cat_page.php?cat_number=$1 [L]
+
+
+#RewriteRule bigimage/([a-zA-Z0-9]+)$ shw_big.php?filename=$1 [L]
+#lefttd
+RewriteRule search-parts/$ search1.php [L]
+#RewriteRule spares/([a-zA-Z0-9]+)/$ search-page.php?query=$1 [L]
+RewriteRule article/([0-9]+)/$ article.php?id=$1 [L]
+RewriteRule price/([a-zA-Z0-9]+)/$ price.php?model=$1 [L]
+RewriteRule delivery/$ delivery.php [L]
+
+RewriteCond %{QUERY_STRING} ^middle=(.*)$ [NC]
+RewriteRule ^middle_image.php$ http://%{HTTP_HOST}/ [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^cat_number(.*)$ [NC]
+RewriteRule ^cat_number\.php$ http://%{HTTP_HOST}/ [R=301,L]
+
+RewriteRule about/$ about.php [L,NC]
+RewriteRule hyundai-porter1/$ porter1.php [L,NC]
+RewriteRule hyundai-porter2/$ porter2.php [L,NC]
+RewriteRule hyundai-starex/$ hyundai-starex.php [L,NC]
+RewriteRule zapchasti-man/$ zapchasti-man.php [L,NC]
+RewriteRule hyundai-hd/$ hyundai-hd.php [L,NC]
+RewriteRule zapchasti-([a-zA-Z0-9]+)/([0-9]+)/$ zapchasti.php?carname=$1&car=$2 [L,NC]
+
+
+
+RewriteRule documenty/$ documents.php [L]
+#RewriteRule otzivy/$ reviews_big.php [L]
+RewriteRule contacts/$ contacts.php [L]
+RewriteRule specials/$ specials.php [L]
+RewriteRule articles/$ articles.php [L]
+#RewriteRule page/$ empty_page.php [L]
+RewriteRule search-video/$ search_video.php [L]
+RewriteRule turbo/$ http://zpr.angara77.com/turbo.php [L]
+RewriteRule bootstrap/$ bootstrap.php [L]
+
+RewriteRule tires-all/$ tires-all.php
+RewriteRule tires-truck/$ tires-truck.php
+RewriteRule tires-auto/$ tires-auto.php
+RewriteRule tires-price-model/$ tires-price-model.php
+RewriteRule tires-price-model-truck/$ tires-price-model-truck.php
+RewriteRule tires-price/$ tires-price.php
+RewriteRule tires-price-parametr/$ tires-price-parametr.php
+RewriteRule tires-price-parametr-truck/$ tires-price-parametr-truck.php
+RewriteRule tires-all/(.+)/(.+)-r(.+)/(.+)/(.+)/(.+)$ tires-all.php?width=$1&profile=$2&diameter=$3&season=$4&index_loading=$5&action1=$6   [L]
+
+
+</IfModule>
+
+<IfModule mod_headers.c>
+
+#Header set Content-Security-Policy "default-src 'self';	img-src 'self' data: *.doubleclick.net *.amazonaws.com *.google-analytics.com *.yandex.ru *.jivosite.com vk.com *.gstatic.com *.googleapis.com https://mc.yandex.ru ; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.google-analytics.com vk.com *.googleapis.com *.jivosite.com *.yandex.ru *.yastatic.net *.google.com *.gstatic.com;  object-src 'self' *.yandex.ru *.jivosite.com vk.com; frame-src 'self' *.google.com vk.com *.youtube.com *.google-analytics.com *.jivosite.com maps.google.ru; font-src 'self' *.jivosite.com *.gstatic.com *.bootstrapcdn.com; connect-src 'self' *.mc.yandex.ru *.jivosite.com wss://node11.jivosite.com/cometcn; style-src 'self' 'unsafe-inline' *.googleapis.com *.vk.com *.jivosite.com *.google.com *.gstatic.com; media-src 'self' *.jivosite.com"
+
+
+#month
+  <filesMatch "\.(ico|jpe?g|png|gif|swf)$">
+    Header set Cache-Control "max-age=2592000, public"
+  </filesMatch>
+  #month
+  <filesMatch ".+\.(jpg|png).+">
+    Header set Cache-Control "max-age=2592000, public"
+  </filesMatch>
+#week
+  <filesMatch "\.(css|js)$">
+    Header set Cache-Control "max-age=604800, public"
+  </filesMatch>
+</IfModule>

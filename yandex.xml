@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2015-10-12 16:28">
+<shop>
+<name>Магазин</name>
+<company>Лучший магазин</company>
+<url>http://angara77.com/</url>
+ 
+<currencies>
+    <currency id="RUR" rate="1"/>
+</currencies>
+<categories>
+<category id="1">Тестовая категория</category>
+<category id="2" parentId="1">Дочерняя категория</category>
+</categories>
+<offers>    <offer id="1" available="true">
+      <url>http://angara77.com/porter-338004A710-6690/</url>
+      <price>20670</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>32</categoryId>
+      <name>﻿Форсунка топливная (ЕВРО5) в сборе 338004A710 PORTER2 ПОРТЕР2</name>
+      <description></description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="2" available="true">
+      <url>http://angara77.com/porter-2212542001-6691/</url>
+      <price>387</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>22</categoryId>
+      <name>Штуцер головки блока цилиндров 2212542001 PORTER ПОРТЕР</name>
+      <description></description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="3" available="true">
+      <url>http://angara77.com/porter-8143843001-6692/</url>
+      <price>97</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>45</categoryId>
+      <name>Кронштейн бардачка 8143843001 PORTER ПОРТЕР</name>
+      <description>Активатор замка двери на Hyundai Porter необходим для активации механизма открытия двери. Это обязательная деталь механизма автомобильной двери, которая идет в стандартной сборке. Необходимо приобретать качественный активатор замка двери на Хундай Портер, ведь от этого зависит безопасность всего механизма.</description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="5" available="true">
+      <url>http://angara77.com/porter-281624B400-2465/</url>
+      <price>1497</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>93</categoryId>
+      <name>Патрубок воздушный 281624B400 PORTER ПОРТЕР</name>
+      <description>Патрубок воздушный на Hyundai Porter является элементом для воздушной системы автомобиля. Он надежно выдерживает постоянные нагрузки, связанные с внутренним давлением воздуха, благодаря чему может долгое время обходиться без замены. Воздушный патрубок на Хундай Портер всегда пригодится при ремонте систем автомобиля, ведь это незаменимая деталь воздухохода.</description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="6" available="true">
+      <url>http://angara77.com/porter-6618203541-2621/</url>
+      <price>790</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>0</categoryId>
+      <name>Трапеция стеклоочистителя 6618203541 ISTANA</name>
+      <description></description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="7" available="true">
+      <url>http://angara77.com/porter-865164F000-6833/</url>
+      <price>159</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>35</categoryId>
+      <name>Кронштейн бампера правый 865164F000 PORTER2 ПОРТЕР2</name>
+      <description></description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="8" available="true">
+      <url>http://angara77.com/porter-CB185R14C-6732/</url>
+      <price>3790</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>16</categoryId>
+      <name>Шины 185R14C CORDIANT BUSINESS CA-1 102/100 R TBL всесезонные PORTER ПОРТЕР</name>
+      <description></description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="9" available="true">
+      <url>http://angara77.com/porter-2431542200-1680/</url>
+      <price>1770</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>18</categoryId>
+      <name>Ремень ГРМ 2431542200_OEM (163з) (GATES) PORTER ПОРТЕР</name>
+      <description>Важным расходным материалом каждого автомобиля и Hyundai Porter в том числе, является ремень газораспределительного механизма. Данное изделие подвергается особому износу и требует периодической замены. А вот период эксплуатации ремня, зависит от качества его материала и производства. В нашем магазине представлен ремень ГРМ в широком ассортименте, высокого качества и по доступным ценам. Владельцы Хюндай Портер могут выбрать как оригинальный ремень, так и высококачественные его аналоги.</description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="10" available="true">
+      <url>http://angara77.com/porter-2335642500-1681/</url>
+      <price>690</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>18</categoryId>
+      <name>Ремень балансирного вала (99з) 2335642500_OEM (DONGIL) PORTER ПОРТЕР</name>
+      <description>Ремень балансировочного вала Hyundai Porter, как и на всех автомобилях, является расходным материалом, периодичность замены которого зависит от качества самого изделия. В нашем магазине предлагаются ремни высокого качества, способные прослужить максимум своего срока эксплуатации. Ассортимент ремня балансировочного порадует владельцев Хюндай Портер своей доступной ценой и высоким качеством материала.</description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="11" available="true">
+      <url>http://angara77.com/porter-2335742030-1682/</url>
+      <price>850</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>20</categoryId>
+      <name>Ролик натяжной ремня балансирного 2335742030_OEM GMB PORTERПОРТЕР GRACE</name>
+      <description>Ролик натяжной ремня балансирного для  Hyundai Porter, Grace, как впрочем, и для любого автомобиля, является небольшой, но значимой деталью. Поэтому, даже к его выбору следует подходить со всей серьезностью. В нашем магазине имеется достаточный ассортимент данного изделия по доступной цене и высокого качества. У нас Вы найдете и оригинальный ролик натяжной ремня балансировочного, и его аналоги высокого качества, подходящие для автомобилей Хюндай Портер и Грейс.</description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="12" available="true">
+      <url>http://angara77.com/porter-2431742020-1683/</url>
+      <price>1190</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>23</categoryId>
+      <name>Ролик натяжной ремня грм 2431742020_OEM GMB PORTER ПОРТЕР GRACE</name>
+      <description>В газораспределительном механизме Hyundai Porter и Grace важную роль играет натяжной ролик ремня. Поэтому, в нашем магазине ролик натяжной ремня ГРМ представлен в широком ассортименте по самым разным, доступным каждому, ценам. Данный ролик предлагается к продаже, как оригинального производства, так и от других, проверенных производителей, которые подходят к газораспределительным механизмам автомобилей Хюндай Портер и Грейс.</description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="13" available="true">
+      <url>http://angara77.com/porter-497105A020-6689/</url>
+      <price>2930</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>5</categoryId>
+      <name>Подшипник подвесной 497105A020 HD72 HD78</name>
+      <description></description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="14" available="true">
+      <url>http://angara77.com/porter-664004F510-6695/</url>
+      <price>4439</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>40</categoryId>
+      <name>Панель передняя капот 664004F510 PORTER2 ПОРТЕР2 12-</name>
+      <description></description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="15" available="true">
+      <url>http://angara77.com/porter-2510041700-6696/</url>
+      <price>3149</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>54</categoryId>
+      <name>Насос водяной помпа D4AL 2510041700_OEM HD65 HD72</name>
+      <description></description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="16" available="true">
+      <url>http://angara77.com/porter-338134X500-6697/</url>
+      <price>30</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>32</categoryId>
+      <name>Шайба форсунки 338134X500 PORTER2 ПОРТЕР2</name>
+      <description>В нашем магазине представлены абсолютно все запчасти и расходные материалы, необходимые для ремонта и обслуживания Hyundai Porter. У нас в наличии всегда имеется широкий ассортимент качественных изделий от двигателя в сборе, до всевозможных шайб и гаек. Поэтому, неудивительно, что Вы найдете у нас высококачественную шайбу форсунки. Шайба форсунки представлена к продаже с оригинальным номером 338134A000, что напрямую говорит о качестве изделия. Владельцы Хюндай Портер могут приобрести шайбу форсунки прямо на сайте, кликнув по зеленой кнопке рядом с товаром.</description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="17" available="true">
+      <url>http://angara77.com/porter-2341042891-2594/</url>
+      <price>1590</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>30</categoryId>
+      <name>Поршень с пальцем 0.25 2341042891_OEM  PARTSMALL PORTER ПОРТЕР</name>
+      <description>Одной из самых важнейших деталей двигателя Hyundai Porter является поршень. От качества этого изделия зависит не просто безупречная работа двигателя, но и длительность периода его эксплуатации, чего желает каждый автовладелец. Поэтому, в нашем магазине представлен поршень с пальцем стандартный самого высокого качества. Данный комплект обладает прочным материалом и высоким качеством его производства. Для Хюндай Портер мы рады предложить широкий ассортимент поршня стандартного, с которым Вы можете ознакомиться на нашем сайте.</description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="18" available="true">
+      <url>http://angara77.com/porter-2304042891-2595/</url>
+      <price>2959</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>30</categoryId>
+      <name>Кольца поршневые 0,25 2304042891_OEM (AZTEC) PORTER ПОРТЕР</name>
+      <description>Огромную роль при ремонте двигателя и шатуннопоршневой группы Хюндай Портер в частности, играет замена колец. Кольца поршневые, предлагаемые нашим магазином изготовлены на надежных и проверенных годами производствах, что гарантирует качество и долговечность работы двигателя после ремонта. Мы предлагаем владельцам Hyundai Porter на выбор широкий ассортимент колец от различных производителей по разной цене. У нас Вы найдете, как оригинальные кольца, так и высококачественные их аналоги.</description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="19" available="true">
+      <url>http://angara77.com/porter-977014F401-4432/</url>
+      <price>49900</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>91</categoryId>
+      <name>Компрессор кондиционера 977014F401/977014F400 PORTER2 ПОРТЕР2</name>
+      <description></description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="20" available="true">
+      <url>http://angara77.com/porter-591374B000-4433/</url>
+      <price>79</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>80</categoryId>
+      <name>Крышка бачка тормозной жидкости 591374B000 PORTER ПОРТЕР</name>
+      <description></description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="21" available="true">
+      <url>http://angara77.com/porter-4912943000-4434/</url>
+      <price>60</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>5</categoryId>
+      <name>Болт карданного вала / 4912943000/491294A100 PORTER ПОРТЕР PORTER2</name>
+      <description></description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="22" available="true">
+      <url>http://angara77.com/porter-588134B001-4435/</url>
+      <price>297</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>78</categoryId>
+      <name>Шланг тормозной передний задний / 588134B001/5881143002_OEM PORTER ПОРТЕР</name>
+      <description>Тормозные шланги играют очень важную роль в тормозной системе Hyundai Porter. Многое зависит от их качества. Ведь, утечка тормозной жидкости может привести к непоправимым и необратимым последствиям. А это может быть вызвано не надежной сборкой шлангов, или отвратительным качеством материала. Поэтому, дабы обезопасить владельцев Хюндай Портер, мы предлагаем шланги, исключительно высокого качества. Шланг тормозной передний задний, представленный к продаже в нашем магазине, произведен на оригинальном корейском производстве и имеет оригинальный номер изделия  588134B001.</description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="23" available="true">
+      <url>http://angara77.com/porter-234104A910-4437/</url>
+      <price>2565</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>30</categoryId>
+      <name>Поршень с пальцем D4CB STD-A 234104A910 PORTER2 ПОРТЕР2</name>
+      <description></description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="24" available="true">
+      <url>http://angara77.com/porter-234104A911-4438/</url>
+      <price>2565</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>30</categoryId>
+      <name>Поршень с пальцем D4CB STD-B 234104A911 PORTER2 ПОРТЕР2</name>
+      <description></description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="25" available="true">
+      <url>http://angara77.com/porter-234104A912-4439/</url>
+      <price>2997</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>30</categoryId>
+      <name>Поршень с пальцем D4CB STD-C 234104A912 PORTER2 ПОРТЕР2</name>
+      <description></description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="26" available="true">
+      <url>http://angara77.com/porter-2312642200-4440/</url>
+      <price>197</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>26</categoryId>
+      <name>Шайба болта коленвала / 2312642200 PORTER ПОРТЕР</name>
+      <description>В нашем магазине представлен широкий ассортимент абсолютно всех запчастей и расходных материалов для автомобилей Hyundai Porter. Мы постоянно заботимся о том, чтобы в наличии были все изделия от самых крупных и до мельчайших. Поэтому, шайба болта коленвала 18 мм постоянно имеется в продаже и представлена исключительно высокого качества. Данная шайба предназначена для более надежной фиксации коленчатого вала Хюндай Портер. В нашем магазине можно приобрести данное изделие с номером  2312642001 по доступной цене.</description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="27" available="true">
+      <url>http://angara77.com/porter-432604A001-4442/</url>
+      <price>987</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>69</categoryId>
+      <name>Шестерня кпп 432604A001 PORTER ПОРТЕР</name>
+      <description></description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="28" available="true">
+      <url>http://angara77.com/porter-2102042908-4443/</url>
+      <price>1870</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>90</categoryId>
+      <name>Вкладыши коренные 0,5 2102042908 PORTER ПОРТЕР GRACE</name>
+      <description></description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="29" available="true">
+      <url>http://angara77.com/porter-1864955009-1667/</url>
+      <price>359</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>0</categoryId>
+      <name>Лампа фары противотуманной 1864955009 SONATA 5</name>
+      <description></description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer>    <offer id="30" available="true">
+      <url>http://angara77.com/porter-6618603360-2611/</url>
+      <price>697</price>
+      <currencyId>RUR</currencyId>
+	  <categoryId>0</categoryId>
+      <name>Бачок омывателя лобового стекла 6618603360 ISTANA</name>
+      <description></description>
+	  <local_delivery_cost>300</local_delivery_cost>
+    </offer></offers></shop></yml_catalog>
